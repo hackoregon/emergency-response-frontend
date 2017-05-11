@@ -2,8 +2,8 @@
 // This should probably be the core component, containing, nav etc
 import React from 'react';
 import styled from 'styled-components';
-import Header from '@hackoregon/component-library/lib/Navigation/Header';
-import Footer from '@hackoregon/component-library/lib/Footer/Footer';
+// import Header from '@hackoregon/component-library/lib/Navigation/Header';
+// import Footer from '@hackoregon/component-library/lib/Footer/Footer';
 import StoryCard from '@hackoregon/component-library/lib/StoryCard/StoryCard';
 // import HowWhenBusy from '@hackoregon/component-library/lib/er-components/HowWhenBusy/HowWhenBusy';
 // import ResponseTimeVaries from '@hackoregon/component-library/lib/er-components/ResponseTimeVaries/ResponseTimeVaries';
@@ -23,7 +23,7 @@ const Container = styled.div`
 function App(props) {
   return (
     <Container>
-      <Header />
+
       <StoryCard title="What Does Portland Fire &amp; Rescue Do?" collectionId="emergency-response" cardId="what-they-do">
         <p className="Description">
           Surprisingly, the vast majority (71.9%) of calls Portland Fire & Rescue
@@ -129,7 +129,7 @@ function App(props) {
         </p>
       </StoryCard>
 
-      <Footer />
+
 
       {React.Children.toArray(props.children)}
     </Container>
