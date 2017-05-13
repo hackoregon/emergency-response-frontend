@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 // import Header from '@hackoregon/component-library/lib/Navigation/Header';
 // import Footer from '@hackoregon/component-library/lib/Footer/Footer';
-import StoryCard from '@hackoregon/component-library/lib/StoryCard/StoryCard';
+import { StoryCard } from '@hackoregon/component-library/lib/StoryCard/StoryCard';
 // import HowWhenBusy from '@hackoregon/component-library/lib/er-components/HowWhenBusy/HowWhenBusy';
 // import ResponseTimeVaries from '@hackoregon/component-library/lib/er-components/ResponseTimeVaries/ResponseTimeVaries';
 // import BarChart from '@hackoregon/component-library/lib/BarChart/BarChart';
